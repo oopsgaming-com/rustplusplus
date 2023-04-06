@@ -25,9 +25,9 @@ module.exports = {
         showCallStackError: process.env.RPP_LOG_CALL_STACK || false
     },
     discord: {
-        username: process.env.RPP_DISCORD_USERNAME || 'rustplusplus',
-        clientId: process.env.RPP_DISCORD_CLIENT_ID || '',
-        token: process.env.RPP_DISCORD_TOKEN || '',
+        username: process.env.RPP_DISCORD_USERNAME || 'Oops Ruster',
+        clientId: process.env.RPP_DISCORD_CLIENT_ID || '495349561330499589',
+        token: process.env.RPP_DISCORD_TOKEN || 'NDk1MzQ5NTYxMzMwNDk5NTg5.Gp4FsA.I22XizoZZ7gv4ZXEgrlXripNC1L_VQk-PtYlyo',
         needAdminPrivileges: process.env.RPP_NEED_ADMIN_PRIVILEGES || true, /* If true, only admins can delete (server, switch..), manage credentials and reset a channel */
     }
 };
